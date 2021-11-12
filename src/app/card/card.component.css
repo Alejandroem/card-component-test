@@ -1,7 +1,39 @@
 .card-image {
-  width: 300px; height: 225px; object-fit: cover;
+  width: 300px;
+  height: 224px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 0px 50px 0px 50px;
 }
 
 .card-date {
-  align-items: left;
+  font-size: 10px;
+  padding: 20px 0px 10px 0px;
+}
+
+.card-title {
+  text-align: left;
+  line-height: 1.25;
+  font-size: 22px;
+  padding: 0px 0px 5px 0px;
+  font-weight: 900;
+}
+.card-text{
+  letter-spacing: -0.5px;
+  text-align: left;
+  line-height: 1;
+  font-size: 14px;
+  padding: 0px 0px 20px 0px;
+}
+
+.card-button {
+  height: 40px;
+  width: 300px;
+  padding: 8px 22px 30px 22px;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: left;
+  border: none;
+  background: #efefef;
 }

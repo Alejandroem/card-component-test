@@ -14,7 +14,7 @@ import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap'
     HomeComponent
   ],
   imports: [
-    NgbModule,
+    NgbAlertModule,
     NgbPaginationModule,
     BrowserModule,
     AppRoutingModule
